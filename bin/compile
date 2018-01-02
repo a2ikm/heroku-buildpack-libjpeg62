@@ -7,7 +7,7 @@ indent() {
 echo "-----> Install libjpeg62"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
-DOWNLOAD_URL="https://dl.dropboxusercontent.com/u/469156/heroku-buildpacks/libjpeg62.tar.gz"
+DOWNLOAD_URL="https://github.com/a2ikm/heroku-buildpack-libjpeg62/releases/download/v6b/libjpeg62.tar.gz"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
